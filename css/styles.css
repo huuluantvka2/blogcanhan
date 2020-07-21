@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arima Madurai', cursive;
+  background-color: #f5f5f5;
+}
+/* general */
+.no-padding {
+  padding: 0 !important;
+}
+.bg-while {
+  background-color: white !important;
+}
+.color-black {
+  color: black !important;
+}
+.navbar.navbar-dark .navbar-nav .nav-item.active > .nav-link {
+  color: #ff9171 !important;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #5d5d5d !important;
+  font-size: 17px;
+  font-weight: 600;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: #ff9171 !important;
+  transition: 0.6s;
+}
+.border-radius {
+  border-radius: 10px;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.bg-deepblack {
+  background-color: #111111;
+}
+.bg-footer {
+  background-color: #0e0e0e;
+}
+.footer-copyright {
+  color: #9f9f9f;
+  font-size: 20px;
+}
+.bd-b {
+  border-bottom: 1px #b2abab solid;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  text-indent: 20px;
+}
+/* end general */
+/* header */
+.bg-snow {
+  width: 100%;
+  height: 120px;
+  background-color: #fff3f0;
+}
+.bg-snow h3 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo-img {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  display: block;
+  animation: leftRight infinite 10s linear;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-box li {
+  width: 10%;
+  list-style-type: none;
+}
+.img--above img {
+  width: 100%;
+  height: 100px;
+}
+/* end header */
+/* content */
+.img-chandung img {
+  width: 100%;
+  border-radius: 1000px;
+}
+/* btn neon */
+.khoi-button a {
+  text-decoration: none;
+  overflow: hidden;
+}
+.btn-style {
+  display: inline-block;
+  padding: 9px 18px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.btn-buy {
+  border-radius: 5px;
+  background: transparent;
+  color: #ff8d6c;
+  transition: 0.2s;
+  position: relative;
+}
+.btn-buy:hover {
+  color: #ff8d6c;
+}
+.btn-buy:hover {
+  box-shadow: 0 0 6px #ff8d6c, 0 0 12px #ff8d6c, 0 0 18px #ff8d6c;
+  background: #ff8d6c;
+  color: #fff;
+  transition: 0.6s;
+}
+.khoi-button span:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  background: linear-gradient(to right, transparent, #ff8d6c);
+  animation: animation1 0.8s linear infinite;
+}
+@keyframes animation1 {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.khoi-button span:nth-child(3) {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  right: -100%;
+  bottom: 0;
+  background: linear-gradient(to left, transparent, #ff8d6c);
+  animation: animation3 0.8s linear infinite;
+  animation-delay: 0.6s;
+}
+@keyframes animation3 {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+.khoi-button span:nth-child(2) {
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  right: 0;
+  top: -100%;
+  background: linear-gradient(to bottom, transparent, #ff8d6c);
+  animation: animation2 0.8s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes animation2 {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+.khoi-button span:nth-child(4) {
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  background: linear-gradient(to top, transparent, #ff8d6c);
+  animation: animation4 0.8s linear infinite;
+  animation-delay: 0.9s;
+}
+@keyframes animation4 {
+  0% {
+    bottom: -100%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
+/* end button */
+.item-inner .col-md-4 {
+  text-align: center;
+}
+.item-inner .col-md-4 img {
+  height: 200px;
+}
+.article-title {
+  font-size: 30px;
+  color: black;
+  transition: 0.2s;
+  font-weight: 400;
+}
+.article-title:hover {
+  color: #ff9171;
+  transition: 0.2s;
+}
+.article p {
+  font-size: 16px;
+}
+.title-content {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+}
+b {
+  font-weight: 600;
+}
+.title-main {
+  margin-top: -15px;
+}
+.time-upload {
+  display: block;
+  text-align: right;
+  color: #b2b4b7;
+  font-weight: 500;
+  font-size: 13px;
+}
+.notfound {
+  height: 50vh;
+  font-size: 25px;
+}
+.persional-info h3 {
+  font-size: 20px;
+}
+.persional-info h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.badge.badge-success a {
+  color: white !important;
+}
+.button-backtoTop {
+  background-color: transparent;
+  border: none !important;
+  outline: none !important;
+  color: beige;
+}
+.content img {
+  width: 100%;
+  height: auto;
+}
+.content p {
+  margin: 10px;
+}
+.pso-relative {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.pso-absolute {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+/* end content */
+/* animation */
+@keyframes leftRight {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .only_pc {
+    display: none;
+  }
+  .flex-box li:nth-child(2n-1) {
+    display: none;
+  }
+  .flex-box li:nth-child(6) {
+    display: none;
+  }
+  .flex-box li {
+    width: 25%;
+  }
+  .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8') !important;
+  }
+  .bg-while {
+    background-color: #f06c98 !important;
+  }
+  .navbar.navbar-dark .navbar-nav .nav-item.active > .nav-link {
+    color: #f5f5f5 !important;
+  }
+  .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: white !important;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #00fbd8 !important;
+    transition: 0.6s;
+  }
+}
