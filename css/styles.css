@@ -95,6 +95,10 @@ p {
   width: 100%;
   border-radius: 1000px;
 }
+.col-md-9 h4 {
+  color: #0e0e0e;
+  font-weight: 500;
+}
 /* btn neon */
 .khoi-button a {
   text-decoration: none;
@@ -261,15 +265,26 @@ b {
 .content p {
   margin: 10px;
 }
-.pso-relative {
-  width: 100%;
-  height: auto;
+.pso-absolute {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 10px;
+}
+.about-me-heading {
   position: relative;
 }
-.pso-absolute {
-  position: fixed;
-  left: 0;
-  top: 0;
+.about-me-heading::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  height: auto;
+  border-bottom: 1px solid #ff8d6c;
+}
+.container.mt-5 h2 {
+  font-weight: 600;
+  font-size: 25px;
 }
 /* end content */
 /* animation */
